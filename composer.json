@@ -3,8 +3,7 @@
     "version": "1.0.3",
     "description": "",
     "keywords": [
-        "swagger",
-        "php",
+        "Everlesson",
         "sdk",
         "api"
     ],
@@ -16,20 +15,16 @@
             "homepage": "https://github.com/sureshNachiappan/everlessonsdk"
         }
     ],
-    "require": {
-        "php": ">=5.3.3",
-        "ext-curl": "*",
-        "ext-json": "*",
-        "ext-mbstring": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "satooshi/php-coveralls": "~0.6.1",
-        "squizlabs/php_codesniffer": "~2.0"
-    },
     "autoload": {
-        "psr-4": { "Everlesson\\" : "lib/" }
-    },
+    "psr-4": {
+      { "Everlesson-client\\" : "lib/" }
+    }
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "php-di/php-di": "*"
+  },
   "scripts": {
     "post-install-cmd": [
       "composer dump-autoload --optimize"
