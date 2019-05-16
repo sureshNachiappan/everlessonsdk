@@ -1,5 +1,5 @@
 {
-    "name": "Everlesson",
+    "name": "Everlesson/Everlesson",
     "version": "1.0.3",
     "description": "",
     "keywords": [
@@ -17,7 +17,7 @@
     ],
     "autoload": {
     "psr-4": {
-      { "Everlesson-client\\" : "lib/" }
+      { "Everlesson\\" : "lib/" }
     }
   },
   "require": {
