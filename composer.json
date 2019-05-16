@@ -29,5 +29,10 @@
     },
     "autoload": {
         "psr-4": { "Everlesson\\" : "lib/" }
-    }
+    },
+  "scripts": {
+    "post-install-cmd": [
+      "composer dump-autoload --optimize"
+    ]
+  }
 }
