@@ -9,11 +9,11 @@
         "api"
     ],
     "homepage": "https://everlesson.io",
-    "license": "Apache v2",
+    "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Suresh Nachiappan",
+            "homepage": "https://github.com/sureshNachiappan/everlessonsdk"
         }
     ],
     "require": {
