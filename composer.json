@@ -1,5 +1,5 @@
 {
-    "name": "swagger/swagger-client",
+    "name": "everlesson/everlesson-client",
     "version": "1.0.3",
     "description": "",
     "keywords": [
@@ -8,7 +8,7 @@
         "sdk",
         "api"
     ],
-    "homepage": "http://swagger.io",
+    "homepage": "https://everlesson.io",
     "license": "Apache v2",
     "authors": [
         {
